@@ -1,0 +1,101 @@
+ if (driverRear == 1) {
+      goodDoor++;
+    }
+    if (driverRear == 2) {
+      damagedDoor++;
+    }
+    if (driverRear == 3) {
+      missingDoor++;
+    }
+    //passengerfront count
+    if (passengerFront == 1) {
+      goodDoor++;
+    }
+    if (passengerFront == 2) {
+      damagedDoor++;
+    }
+    if (passengerFront == 3) {
+      missingDoor++;
+    }
+    //passangerRear count
+    if (passengerRear == 1) {
+      goodDoor++;
+    }
+    if (passengerRear == 2) {
+      damagedDoor++;
+    }
+    if (passengerRear == 3) {
+      missingDoor++;
+    }
+    // bumperfront count
+    if (bumperFront == 1) {
+      goodBumper++;
+    }
+    if (bumperFront == 2) {
+      damagedBumper++;
+    }
+    if (bumperFront == 3) {
+      missingBumper++;
+    }
+    //bumperrear count
+    if (bumperRear == 1) {
+      goodBumper++;
+    }
+    if (bumperRear == 2) {
+      damagedBumper++;
+    }
+    if (bumperRear == 3) {
+      missingBumper++;
+    }
+    //driverheadlight
+    if (driverlight == 1) {
+      goodHeadLight++;
+    }
+    if (driverlight == 2) {
+      damagedHeadLight++;
+    }
+    if (driverlight == 3) {
+      missingHeadLight++;
+    }
+    //passengerheadlight
+    if (passengerlight == 1) {
+      goodHeadLight++;
+    }
+    if (passengerlight == 2) {
+      damagedHeadLight++;
+    }
+    if (passengerlight == 3) {
+      missingHeadLight++;
+    }
+    //drivertaillight
+    if (driverTlight == 1) {
+      goodTailLight++;
+    }
+    if (driverTlight == 2) {
+      damagedTailLight++;
+    }
+    if (driverTlight == 3) {
+      missingTailLight++;
+    }
+    //passengertaillight
+    if (passengerTlight == 1) {
+      goodTailLight++;
+    }
+    if (passengerTlight == 2) {
+      damagedTailLight++;
+    }
+    if (passengerTlight == 3) {
+      missingTailLight++;
+    }
+
+
+
+
+
+
+
+    if ((condition == ComponentCondition.good ||
+            condition == ComponentCondition.damaged) &&
+        i == 0) {
+      componentPrice = scrapValue;
+    } else
